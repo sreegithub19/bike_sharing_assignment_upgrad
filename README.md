@@ -12,8 +12,8 @@ Observations and explanations from our assignment:
 
 <li>During clear, partly cloudy weather, the bike rental count is the highest, second-highest during misty cloudy weather, and followed by 3rd highest, during light snow and light rain weather.
 
-<li>Outlier analysis:
-(i) No outliers are present in total_count variable.
+<li>Outlier analysis:<br>
+(i) No outliers are present in total_count variable.<br>
 (ii) No outliers are present in normalized temp but few outliers are present in normalized windspeed and humidity variables.
 
 <li>Normal probability plot is a graphical technique to identify substantive departures from normality and also it tells about goodness of fit. In our normal probability plot, some target variable data points are deviating from normality.
@@ -23,8 +23,8 @@ Observations and explanations from our assignment:
 For modelling the datset, we split the dataset into train and test in the ratio of 70:30.
 
 <li>Training dataset:
-(i) While fitting Linear regression to our trained dataset, Accuracy of the model: 82.4 %
-(ii) Cross validation prediction plot tells about finite variance between actual target value and predicted target value. In our Cross validation prediction plot for training dataset, some data points are have same finite variance between them and some are not having it.
+(i) While fitting Linear regression to our trained dataset, Accuracy of the model: 82.4 %<br>
+(ii) Cross validation prediction plot tells about finite variance between actual target value and predicted target value. In our Cross validation prediction plot for training dataset, some data points are have same finite variance between them and some are not having it.<br>
 (iii) Model Evaluation metrics: R-Squared (R² or the coefficient of determination) is a statistical measure in a regression model that determines the proportion of variance in the dependent variable that can be explained by the independent variable.The R-squared or coefficient of determination for our model is 0.81 on average , it means that predictor is only able to predict 81% of the variance in the target variable which is contributed by independent variables.
 
 <li>Testing dataset:
