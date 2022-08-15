@@ -36,3 +36,31 @@ Mean absolute error : 595.2441391283483
   
 <li>Residual plot tells about finite variance between actual target value and predicted target values. In our Residual plot,very less data points are having the same finite variance between them.
 </ol>
+
+
+<hr>
+
+License
+=========================================
+The dataset used in this assignment has been obtained from the following publication:
+
+[1] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
+
+@article{
+	year={2013},
+	issn={2192-6352},
+	journal={Progress in Artificial Intelligence},
+	doi={10.1007/s13748-013-0040-3},
+	title={Event labeling combining ensemble detectors and background knowledge},
+	url={http://dx.doi.org/10.1007/s13748-013-0040-3},
+	publisher={Springer Berlin Heidelberg},
+	keywords={Event labeling; Event detection; Ensemble learning; Background knowledge},
+	author={Fanaee-T, Hadi and Gama, Joao},
+	pages={1-15}
+}
+
+=========================================
+Contact
+=========================================
+	
+For further information about this dataset please contact Hadi Fanaee-T (hadi.fanaee@fe.up.pt)
