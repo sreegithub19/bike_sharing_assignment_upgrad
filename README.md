@@ -22,12 +22,12 @@ Observations and explanations from our assignment:
 
 For modelling the datset, we split the dataset into train and test in the ratio of 70:30.
 
-<li>Training dataset:
+<li>Training dataset:<br>
 (i) While fitting Linear regression to our trained dataset, Accuracy of the model: 82.4 %<br>
 (ii) Cross validation prediction plot tells about finite variance between actual target value and predicted target value. In our Cross validation prediction plot for training dataset, some data points are have same finite variance between them and some are not having it.<br>
 (iii) Model Evaluation metrics: R-Squared (R² or the coefficient of determination) is a statistical measure in a regression model that determines the proportion of variance in the dependent variable that can be explained by the independent variable.The R-squared or coefficient of determination for our model is 0.81 on average , it means that predictor is only able to predict 81% of the variance in the target variable which is contributed by independent variables.
 
-<li>Testing dataset:
+<li>Testing dataset:<br>
 (i) Model Evaluation metrics: Root Mean Square Error (RMSE) is the standard deviation of the residuals (prediction errors), and The mean absolute error of a model with respect to a test set is the mean of the absolute values of the individual prediction errors on over all instances in the test set.
 
 For our model, 
