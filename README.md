@@ -1,8 +1,8 @@
 # bike_sharing_assignment_upgrad
 
-Observations and explanations:
-
-There is an increase in the bike rental count in spring and summer season , and then decrease in the bike rental count in fall and winter season.
+Observations and explanations from our assignment:
+<ol>
+<li>There is an increase in the bike rental count in spring and summer season , and then decrease in the bike rental count in fall and winter season.
 
 The bike rental count distribution is higher in 2019 than in 2018.
 
@@ -22,7 +22,7 @@ Correlation matrix tells about linear relationship between attributes and helps 
 
 For modelling the datset, we split the dataset into train and test in the ratio of 70:30.
 
-Training dataset:
+<li>Training dataset:
 (i) While fitting Linear regression to our trained dataset, Accuracy of the model: 82.4 %
 (ii) Cross validation prediction plot tells about finite variance between actual target value and predicted target value. In our Cross validation prediction plot for training dataset, some data points are have same finite variance between them and some are not having it.
 (iii) Model Evaluation metrics: R-Squared (R² or the coefficient of determination) is a statistical measure in a regression model that determines the proportion of variance in the dependent variable that can be explained by the independent variable.The R-squared or coefficient of determination for our model is 0.81 on average , it means that predictor is only able to predict 81% of the variance in the target variable which is contributed by independent variables.
@@ -30,7 +30,8 @@ Training dataset:
 Testing dataset:
 (i) Model Evaluation metrics: Root Mean Square Error (RMSE) is the standard deviation of the residuals (prediction errors), and The mean absolute error of a model with respect to a test set is the mean of the absolute values of the individual prediction errors on over all instances in the test set.
 
-For our model, 
+<li>For our model, 
 Root mean square error : 802.4291866599553
 Mean absolute error : 595.2441391283483
 Residual plot tells about finite variance between actual target value and predicted target values. In our Residual plot,very less data points are having the same finite variance between them.
+</ol>
